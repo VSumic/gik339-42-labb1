@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labb 1 - Grupp 42</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Labb 1 - Grupp 42</h1>
+    </header>
+    <div class="container">
+        
+        <div class="form-container">
+            <div class="input-group">
+                <label for="farg">Färg:</label>
+                <input type="text" id="farg" name="farg">
+            </div>
+            <div class="input-group">
+                <label for="innehall">Innehåll:</label>
+                <input type="text" id="innehall" name="innehall">
+            </div>
+            <div class="input-group">
+                <label for="divStyle">Stil på box:</label>
+                <input type="checkbox" id="divStyle" name="divStyle">
+            </div>
+            <div class="button-container">
+                <button type="button" id="removeButton">Ta bort</button>
+            </div>
+            <div class="output" id="outputDiv"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
