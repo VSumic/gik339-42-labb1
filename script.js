@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var outputDiv = document.getElementById('outputDiv'); 
 
     //Vi har alltså änvänt DOM-funktionen 'getElementById' för att hitta ett specifikt element objekt som matchar ID:et
-    //som tex "outputDiv", och sparat det värdet i våra 'vars'
+    //som tex "outputDiv", och sparat det värdet i våra 'vars'. Då alla dessa HTML element har specifika ID:n blir det enkelt
+    // att implementera och ett smidigt sätt att spara värderna på.
+    // Om elementen inte hade ID:n skulle QuerySelector kanske vara bra DOM-funktion att använda.
 
 
     // Har har vi en eventlistener som som triggas vid input i FargInput textfältet av anvädaren
